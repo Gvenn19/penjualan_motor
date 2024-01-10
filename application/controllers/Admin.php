@@ -515,7 +515,7 @@ class Admin extends CI_Controller{
 
 
 		}else{
-			$this->load->view('admin/header');
+			$this->load->view('admin/header'); 
 			$this->load->view('admin/tambah_user');
 			$this->load->view('admin/footer');
 		}
